@@ -22,7 +22,8 @@ class UserService:
             return False
         else:
             return True
-        
+            
+    # reset the password and username  
     def reset(self, username, password, user):
         User=self.mapper.get_user(username)
         if User is None or User.username==user.get_username():
