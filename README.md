@@ -55,7 +55,7 @@ choice 8: Back to the menu(the place include login, register and quit).
 
 # Structure
 There are 4 folds of code, control, mapper, pojo, and service. And useers.json is the place we store your account information(include your username,password,and your pet's status)  
-The service fold stores UsernService.py, which realize the function of user register and authentication and reset. The GameService.py realize the method of game, include every interactions with pet. And it also realize the method for create pet and convert pet information from data to object. 
+The service fold stores UserService.py, which realize the function of user register and authentication and reset. The GameService.py realize the method of game, include every interactions with pet. And it also realize the method for create pet and convert pet information from data to object. 
 The control folds include GameController which wrap the GameService class, and offer a method 'start_game' for main.py to call. The UserController wrap the UserService class, get different results of login and register, than output the result with human language to users, it offer login register method for main.py, and reset method for GameService
 The pojo fold includes entities we needed. Include User, the object include username, type and status of pet. The pet is the parent class of Cat and Dog, includes the name, color, hunger happiness and energy of pet. And the Cat and Dog include function meow/bark, and the type of pet.  
 Mapper is the connector between object and database(here is users.json), read information from it, and give them to the object User, it can also read the object user, and convert it to the data in users.json.
