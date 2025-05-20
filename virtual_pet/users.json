@@ -1,0 +1,26 @@
+{
+    "hzf": {
+        "username": "hzf",
+        "password": "hzf",
+        "pet": {
+            "name": "ttt",
+            "color": "gray",
+            "hunger": 50,
+            "happiness": 50,
+            "energy": 50,
+            "type": "dog"
+        }
+    },
+    "222": {
+        "username": "222",
+        "password": "333",
+        "pet": {
+            "name": "r",
+            "color": "white",
+            "hunger": 50,
+            "happiness": 50,
+            "energy": 50,
+            "type": "cat"
+        }
+    }
+}
